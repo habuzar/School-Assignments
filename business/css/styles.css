@@ -1,0 +1,275 @@
+body{
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    background-color: #f5f5f5;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+.outer{
+    background-image: url("../imgs/banner.png");
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    height: 50%;
+}
+.inner img{
+    position:absolute;
+    width: 30%;
+	top: 50px;
+    padding-left: 35%;
+
+}
+.links li, a{
+    display: inline-block;
+    float: right;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover{
+    color:beige;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.about p{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 80px;
+
+}
+.about h2{
+    display: relative;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 40px;
+}
+
+#bow{
+    position: relative;
+    margin-left: 70%;
+    width: 170px;
+    top: 30px;
+}
+
+.team{
+    position: relative;
+    text-align: center;
+    border: hidden;
+    border-radius: 15px;
+    font-size: 30px;
+    margin: 100px auto;
+    line-height: 80px;
+    min-width: 400px;
+    max-width: 40%;
+    background-color: ghostwhite;
+    box-shadow: 0px 30px 50px -20px rgba(0, 0, 0, 1);
+}
+
+.left img{
+    position: relative;
+    left: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    float: left;
+    transition: 0.5s ease;
+    box-shadow: 0px 30px 40px -20px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+.left p{
+    display:flex;
+    font-family: sans-serif;
+    text-align: justify;
+    flex-direction: column;
+    padding: 0px 40px;
+    min-width: 400px;
+    font-size: 20px;
+}
+.left h4{
+    text-align:left;
+    padding: 20px;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.right img{
+    position: relative;
+    margin-bottom: 20px;
+    right: 20px;
+    width: 200px;
+    float: right;
+    box-shadow: 0px 30px 40px -20px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+.right p{
+    display: flex;
+    font-family: sans-serif;
+    text-align: justify;
+    flex-direction: column;
+    padding: 0px 40px;
+    min-width: 400px;
+    font-size: 20px;
+}
+.right h4{
+    text-align: right;
+    padding-right: 20px;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.enlarge img{
+    transition: transform 0.3s;
+
+}
+.enlarge img:hover{
+    transform: scale(1.1);
+}
+
+
+.products{
+    margin-top: 400px;
+
+}
+.products h2{
+    display: relative;
+    text-align: center;
+    font-size: 40px;
+}
+.cards{
+    justify-content: center;
+    display: flex;
+    flex-wrap:wrap;
+}
+.card{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+    max-width: 225px;
+    min-width: 100px;
+	height: 460px;
+	padding: 15px;
+	margin: 15px;
+    font-size: 12;
+}
+.card img{
+    border-radius: 5px;
+    max-width: 230px;
+    margin: 0px;
+}
+.card p{
+    font-size: 13px;
+    margin: 10px 0;
+}
+.card h4{
+    font-size: 16;
+    margin: auto;
+}
+.cart{
+    font-family: "poppins", sans-serif;
+    margin-top: 5px;
+    padding: 5px 15px;
+    background-color:ghostwhite;
+    border-style: none;
+    border-radius: 15px;
+    cursor:pointer;
+    box-shadow: 0px 5px 5px rgba(200, 200, 200, 0.75);
+}
+.cart:hover{
+    background-color: lavender;
+}
+.card .code{
+    font-size: 10px;
+    margin: 0;
+}
+
+.inputs{
+    align-items: center;
+    border: hidden;
+    border-radius: 15px;
+    margin: 100px auto;
+    line-height: 40px;
+    min-width: 400px;
+    max-width: 40%;
+    background-color: ghostwhite;
+    box-shadow: 0px 30px 50px -20px rgba(0, 0, 0, 1);
+
+    }
+
+.contact h2{
+    display: relative;
+    text-align: center;
+    font-size: 40px;
+}
+.contact .inputs, .dropdown{
+    padding: 0px 20px;
+    margin: 0px 20px;
+}
+
+.form, .hidden{
+   margin: 10px;
+
+}
+
+.contact input, textarea{
+    padding: 5px 10px;
+    border-radius: 15px;
+    border-width: 1px;
+    margin: 10px;
+}
+
+.top{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.ref{
+    margin-top: 300px;
+     display: relative;
+    text-align: center;
+    font-size: 40px;
+}
+.ref ul{
+    display: relative;
+    font-size: 20;
+    list-style: none;
+
+}
+
+.submit{
+    margin-top: 5px;
+    padding: 5px 15px;
+    background-color:lavender;
+    border-style: none;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
+}
